@@ -14,3 +14,6 @@
 .navLink {
     padding: 10px;
 }
+.navLink:hover {
+    background-color: blue;
+}
