@@ -10,9 +10,18 @@
 .imageContainer {
     padding: 5%;
     min-width: 40%;
+
+}
+
+.imageBorder {
+    box-shadow: 10px 10px 5px ghostwhite;
 }
 
 .textContainer {
     padding: 5%;
     min-width: 60%;
+}
+
+.textBorder {
+    text-shadow: 3px 3px 10px ghostwhite;
 }

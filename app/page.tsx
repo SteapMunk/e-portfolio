@@ -7,14 +7,18 @@ export default function Home() {
     <main>
       <div className={styles.mainContainer}>
           <div className={styles.imageContainer}>
-              <Image src="/../public/starfishHeadshot.jpg" height={500} width={500} alt="Picture of Sam"></Image>
+              <div className={styles.imageBorder}>
+                  <Image src="/../public/starfishHeadshot.jpg" height={500} width={500} alt="Picture of Sam"></Image>
+              </div>
           </div>
           <div className={styles.textContainer}>
-              <h3>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </h3>
+              <div className={styles.textBorder}>
+                  <h3>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                      dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </h3>
+              </div>
           </div>
       </div>
     </main>
