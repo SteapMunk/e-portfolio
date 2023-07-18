@@ -4,11 +4,11 @@ import styles from './page.module.css'
 
 export default function Home() {
   return (
-    <main>
+    <main className={styles.main}>
       <div className={styles.mainContainer}>
           <div className={styles.imageContainer}>
               <div className={styles.imageBorder}>
-                  <Image src="/../public/starfishHeadshot.jpg" height={500} width={500} alt="Picture of Sam"></Image>
+                  <Image className={styles.image} src="/../public/starfishHeadshot.jpg" height={500} width={500} alt="Picture of Sam"></Image>
               </div>
           </div>
           <div className={styles.textContainer}>

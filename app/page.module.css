@@ -14,7 +14,12 @@
 }
 
 .imageBorder {
+    border-radius: 25px;
     box-shadow: 10px 10px 5px ghostwhite;
+}
+
+.image {
+    border-radius: 25px;
 }
 
 .textContainer {
@@ -23,5 +28,5 @@
 }
 
 .textBorder {
-    text-shadow: 3px 3px 10px ghostwhite;
+    text-shadow: 2px 2px 10px ghostwhite;
 }

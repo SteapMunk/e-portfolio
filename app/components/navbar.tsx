@@ -1,13 +1,14 @@
 import Link from 'next/link'
+import styles from './navbar.module.css'
 
 
 export default function NavBar() {
     return (
         <div>
-            <nav className='h-[56px] flex justify-center items-center bg-indigo-700 drop-shadow-lg'>
+            <nav className={styles.mainNav}>
                 <div>
-                    <Link href="../">Home</Link>
-                    <Link href="../about/">About</Link>
+                    <Link className={styles.navLink} href="../">Home</Link>
+                    <Link className={styles.navLink} href="../about/">About</Link>
                 </div>
             </nav>
         </div>
