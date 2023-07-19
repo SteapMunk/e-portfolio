@@ -1,32 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
 .mainContainer {
+    background: yellow;
     display: flex;
     min-height: 40%;
     max-width: 80%;
     margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .imageContainer {
+    background: orange;
     padding: 5%;
     min-width: 40%;
 
 }
 
 .imageBorder {
+    background: green;
     border-radius: 25px;
-    box-shadow: 10px 10px 5px ghostwhite;
+    box-shadow: 10px 10px 5px black;
 }
 
 .image {
+    background: pink;
     border-radius: 25px;
 }
 
 .textContainer {
+    background: red;
     padding: 5%;
     min-width: 60%;
 }
 
 .textBorder {
-    text-shadow: 2px 2px 10px ghostwhite;
+    background: blue;
+    /*text-shadow: 2px 2px 10px ghostwhite;*/
 }

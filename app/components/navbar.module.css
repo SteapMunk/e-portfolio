@@ -5,10 +5,27 @@
     background-color: #3700B3;
     box-shadow: #230a57;
     min-height: 56px;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .navHome {
+    min-width: 50%;
+    justify-content: left;
+}
 
+.navObjects {
+    min-width: 100%;
+    display: flex;
+}
+
+.navPages {
+    padding: 5px;
+    background: blue;
+    min-width: 50%;
+    justify-content: end;
+    text-align: right;
 }
 
 .navLink {
@@ -16,4 +33,5 @@
 }
 .navLink:hover {
     background-color: blue;
+    border-radius: 5px;
 }
