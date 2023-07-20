@@ -22,7 +22,7 @@
 
 .navPages {
     padding: 5px;
-    background: blue;
+    /*background: blue;*/
     min-width: 50%;
     justify-content: end;
     text-align: right;

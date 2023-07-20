@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import styles from './navbar.module.css'
+import Image from 'next/image'
 
 
 export default function NavBar() {
@@ -8,8 +9,8 @@ export default function NavBar() {
             <nav className={styles.mainNav}>
                 <div className={styles.navObjects}>
                     <div className={styles.navHome}>
-                        <Link className={styles.navLink} href="../">
-
+                        <Link  href="../">
+                            <Image className={styles.navLink} src="/../public/homeIcon.png" height={48} width={48} alt="homeIcon"></Image>
                         </Link>
                     </div>
                     <div className={styles.navPages}>

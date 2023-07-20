@@ -14,12 +14,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-        <head>
-            <meta charSet="tf-8"/>
-            <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-                  rel="stylesheet"></link>
-        </head>
+        {/*<head>*/}
+        {/*    <meta charSet="tf-8"/>*/}
+        {/*    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"*/}
+        {/*          rel="stylesheet"></link>*/}
+        {/*</head>*/}
       <body>
+          <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+                rel="stylesheet"></link>
           <NavBar />
           {children}
       </body>
