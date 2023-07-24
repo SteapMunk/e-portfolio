@@ -16,9 +16,8 @@ export default function Home() {
           <div className={styles.textContainer}>
               <div className={styles.textBorder}>
                   <h3 className={poppins.className}>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                      dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                      Welcome to my e-portfolio. My name is Sam Addison and I am a third year software engineering student at the University of Victoria.
+                      In this e-portfolio you will find some of my personal and professional accomplishments.
                   </h3>
               </div>
           </div>
